@@ -8,6 +8,12 @@ var arr = [10,20,30,40,50,60]
 
 //Code Here
 
+let firstItem = arr[0]
+console.log(firstItem)
+
+
+
+
 
 ////////// PROBLEM 2 //////////
 /*
@@ -15,6 +21,13 @@ var arr = [10,20,30,40,50,60]
 */
 
 //Code Here
+
+let lastitemRemoved = arr.pop()
+console.log(lastitemRemoved)
+
+
+
+
 
 ////////// PROBLEM 3 //////////
 
@@ -27,6 +40,10 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 */
 
 //Code Here
+
+for (i = 0; i < family.length; i++) {
+  console.log(family[i])
+}
 
 
 
@@ -43,6 +60,22 @@ let evensArr = []
 
 //Code Here
 
+for (i = 0; i < nums.length; i++) {
+  console.log(nums[i]) 
+
+if (nums[i] % 2 === 0) {
+  evensArr.push(nums[i]);
+}
+}
+  console.log(evensArr);
+
+
+
+
+
+
+
+
 
 
 ////////// PROBLEM 5 //////////
@@ -56,6 +89,12 @@ var score = 74
 */
 
 //Code Here
+
+
+
+
+
+
 
 
 ////////// Intermediate Problems //////////
@@ -73,12 +112,25 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 //Code Here
 
 
+
+
+
+
+
+
 ////////// PROBLEM 7 //////////
 
 // Subscripting (accessing values using their index) an array can fail. What happens if you subscript to the 7th element, but there are not 7 elements in the array? Let's write some code to check for that. 
 // Use an if statement to check the length of the 'myFavoriteNumbers' array. If it's less than 7, log 'There are not enough elements in this array' to the console. If the length is more than 7, reassign the value of 'someNum' to the value of the 7th element in the array. (Hint: how can you make sure that your code works for exactly 7 elements? What index do you use to get the 7th element?)
 
 //Code Here
+
+
+
+
+
+
+
 
 
 ////////// PROBLEM 8 //////////
@@ -92,6 +144,13 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 //Code Here
 
 
+
+
+
+
+
+
+
 ////////// PROBLEM 9 //////////
 // Do not edit the code below.
 var letters = ['A', 'B', 'C', 'D', 'E'];
@@ -102,6 +161,13 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
+
+
+
+
+
+
+
 
 
 ////////// Advanced Problems //////////
@@ -124,6 +190,13 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
+
+
+
+
+
+
+
 
 
 
