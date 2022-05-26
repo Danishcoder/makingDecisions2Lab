@@ -177,10 +177,8 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
 //Code Here
 
-
-
-
-
+for (i = 4; i >= 0; i--)
+  console.log(letters[i])
 
 
 
@@ -191,7 +189,7 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 // Switch statements can be excellent alternatives to if blocks. Look up switch statements (I recommend W3 Schools) and try to implement one for the following.
 
 // Do not edit the code below.
-let letterGrade = 'B'
+let letterGrade = 'F'
 // Do not edit the code above.
 
 /* Use a switch statement on 'letterGrade' and console.log the appropriate response.
@@ -206,6 +204,22 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 
 //Code Here
 
+switch(letterGrade) {
+  case "A":
+    console.log("The student is doing excellent")
+    break;
+  case "B": 
+    console.log("The student is doing well")
+    break;
+  case 'C':
+    console.log("The student is doing alright.")
+    break;
+  case 'D':
+    console.log("The student is doing alright")
+    break;
+  case 'F':
+    console.log("The student is failing")
+}
 
 
 
@@ -240,3 +254,18 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
+
+
+for (i = 1; i < 100; i++)
+  if (i % 15 === 0) {
+    console.log("Devmountain")
+ } else if  (i % 3 === 0 ) {
+  console.log("Dev")
+ }
+  else if ( i % 5 === 0){
+    console.log("Mountain")
+  }  else console.log(i)
+
+
+
+
